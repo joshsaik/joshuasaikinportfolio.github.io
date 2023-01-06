@@ -1,6 +1,6 @@
 body{
 background-image:linear-gradient(red, orange);
-background-size: 4000px;
+height: 1043px;
 }
 
 .intro{
@@ -11,6 +11,8 @@ background-size: 4000px;
     width: 610px;
     margin: 0 auto;
     font-size: 40px;
+  border-radius: 50px;
+  padding: 10px;
     
 }
 
@@ -20,56 +22,30 @@ background-size: 4000px;
  justify-content: space-around;
   background-color: black;
   border-radius: 40px;
-    margin: 20px auto;
+  margin: 20px auto;
+  width: 1000px;
  
     
 }
 
 
-.a{
+.space{
     color:white;
     border:black  2px solid;
     margin: 5px 20px 2px 20px;
     padding:5px;
     background-color:black;
+    transition: padding 1s;
+    border-radius: 20px;
+  
 }
 
-.a:hover{
+.space:hover{
     border:white  2px solid;
+    padding:10px;
+    transition: padding 1s;
 }
 
-.b{
-   color:white;
-    border:black  2px solid;
-    margin: 5px 20px 2px 20px;
-    padding:5px;
-    background-color:black;
-}
 
-.b:hover{
-    border:white  2px solid;
-}
 
-.c{
-    color:white;
-    border:black  2px solid;
-    margin: 5px 20px 2px 20px;
-    padding:5px;
-    background-color:black;
-}
 
-.c:hover{
-    border:white  2px solid;
-}
-
-.d{
-    color:white;
-    border:black  2px solid;
-    margin: 5px 20px 2px 20px;
-    padding:5px;
-    background-color:black;
-}
-
-.d:hover{
-    border: white  2px solid;
-}
