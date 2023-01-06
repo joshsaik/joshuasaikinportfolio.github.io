@@ -1,0 +1,75 @@
+body{
+background-image:linear-gradient(red, orange);
+background-size: 4000px;
+}
+
+.intro{
+    text-align: center;
+    border: 3px red solid;
+    background-color: black;
+   	color: red;
+    width: 610px;
+    margin: 0 auto;
+    font-size: 40px;
+    
+}
+
+
+.topnav{
+ display: flex;
+ justify-content: space-around;
+  background-color: black;
+  border-radius: 40px;
+    margin: 20px auto;
+ 
+    
+}
+
+
+.a{
+    color:white;
+    border:black  2px solid;
+    margin: 5px 20px 2px 20px;
+    padding:5px;
+    background-color:black;
+}
+
+.a:hover{
+    border:white  2px solid;
+}
+
+.b{
+   color:white;
+    border:black  2px solid;
+    margin: 5px 20px 2px 20px;
+    padding:5px;
+    background-color:black;
+}
+
+.b:hover{
+    border:white  2px solid;
+}
+
+.c{
+    color:white;
+    border:black  2px solid;
+    margin: 5px 20px 2px 20px;
+    padding:5px;
+    background-color:black;
+}
+
+.c:hover{
+    border:white  2px solid;
+}
+
+.d{
+    color:white;
+    border:black  2px solid;
+    margin: 5px 20px 2px 20px;
+    padding:5px;
+    background-color:black;
+}
+
+.d:hover{
+    border: white  2px solid;
+}
