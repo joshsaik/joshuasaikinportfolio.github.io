@@ -1,6 +1,6 @@
 body{
-background-image:linear-gradient(red, orange);
-height: 1043px;
+background-image:url(https://w0.peakpx.com/wallpaper/600/989/HD-wallpaper-warm-fade-mix-red-orange-yellow-colorful.jpg);
+
 }
 
 .intro{
@@ -42,6 +42,23 @@ height: 1043px;
 
 .space:hover{
     border:white  2px solid;
+    padding:10px;
+    transition: padding 1s;
+}
+
+.space1{
+    color:yellow;
+    border:black  2px solid;
+    margin: 5px 20px 2px 20px;
+    padding:5px;
+    background-color:black;
+    transition: padding 1s;
+    border-radius: 20px;
+  
+}
+
+.space1:hover{
+    border:yellow  2px solid;
     padding:10px;
     transition: padding 1s;
 }
