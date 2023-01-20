@@ -3,7 +3,8 @@ background-image:url(https://w0.peakpx.com/wallpaper/600/989/HD-wallpaper-warm-f
 
 }
 
-.intro{
+.title{
+   transition: color 1s;
     text-align: center;
     border: 3px red solid;
     background-color: black;
@@ -13,8 +14,40 @@ background-image:url(https://w0.peakpx.com/wallpaper/600/989/HD-wallpaper-warm-f
     font-size: 40px;
   border-radius: 50px;
   padding: 10px;
+  animation: rainbow 3s;
     
 }
+
+
+
+
+
+@keyframes rainbow {
+  0% { color:orange; }
+  16% { color: yellow; }
+  32% { color: green; }
+  48% { color: blue; }
+  64% { color: purple; }
+  82% { color: pink; }
+  100% { color: red; }
+
+}
+
+.title:hover{
+animation: rainbow1 3;
+} 
+
+
+@keyframes rainbow1 {
+  0% { color:orange; }
+  16% { color: yellow; }
+  32% { color: green; }
+  48% { color: blue; }
+  64% { color: purple; }
+  82% { color: pink; }
+    100% { color: red; }
+
+} 
 
 
 .topnav{
@@ -63,6 +96,75 @@ background-image:url(https://w0.peakpx.com/wallpaper/600/989/HD-wallpaper-warm-f
     transition: padding 1s;
 }
 
+.contact{
+  font-size: 30px;
+  
+}
 
 
+.contain{
+  display:flex;
+  justify-content:space-around;
+  
+}
+
+/*------------------------- Game Parts --------------------------------*/
+
+.game{
+width:280px;
+  height:240px;
+  border:black inset 5px;
+  margin: 40px 20px 30px 20px;
+  background-image: url(https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder-1024x1024.png);
+  border-radius: 10px;
+  transition: 0.1s;
+  
+}
+
+.game:hover{
+  transform: scale(1.2);
+  transition: 0.1s;
+  
+}
+
+.gtitle{
+   transition: color 1s;
+    text-align: center;
+    border: 3px yellow solid;
+    background-color: black;
+   	color: yellow;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 40px;
+  border-radius: 50px;
+  padding: 10px;
+  animation: rainbowg 5s;
+    
+}
+
+.gtitle:hover{
+animation: rainbowg1 5s;
+}
+
+@keyframes rainbowg {
+  0% { color:green; }
+  16% { color: blue; }
+  32% { color: purple; }
+  48% { color: pink; }
+  64% { color: red; }
+  82% { color: orange; }
+  100% { color: yellow; }
+
+}
+
+@keyframes rainbowg1 {
+  0% { color:green; }
+  16% { color: blue; }
+  32% { color: purple; }
+  48% { color: pink; }
+  64% { color: red; }
+  82% { color: orange; }
+  100% { color: yellow; }
+
+}
 
