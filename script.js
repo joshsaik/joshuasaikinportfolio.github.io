@@ -4,7 +4,8 @@ $(".projects , .games , .python , .javascript , .a , .b , .c ,.d").hide();
 $(".h").click(function(){
   $(".a , .b , .c , .d").hide();
   $(".projects , .games , .python , .javascript").hide();
-   $(".a1 , .home").slideDown();
+  $(".a1").show(0.2);
+   $(".home").slideDown();
 
 });
 
@@ -12,7 +13,8 @@ $(".h").click(function(){
 $(".p").click(function(){
   $(".a1 , .b , .c , .d").hide();
   $(".home , .games , .python , .javascript").hide();
-  $(".a , .projects").slideDown();
+  $(".a").show(0.2);
+  $(".projects").slideDown();
 
 
 });
@@ -21,7 +23,8 @@ $(".p").click(function(){
 $(".g").click(function(){
   $(".a1 , .a , .c , .d").hide();
   $(".projects , .home , .python , .javascript").hide();
-  $(".b , .games").slideDown();
+  $(".b").show(0.2);
+  $(".games").slideDown();
 
 });
 
@@ -29,7 +32,8 @@ $(".g").click(function(){
 $(".py").click(function(){
   $(".a1 , .a , .b , .d").hide();
   $(".projects , .games , .home , .javascript").hide();
-   $(".c , .python").slideDown();
+  $(".c").show(0.2);
+   $(".python").slideDown();
 });
 
 
@@ -37,5 +41,6 @@ $(".py").click(function(){
 $(".j").click(function(){
   $(".a1 , .a , .b , .c").hide();
   $(".projects , .games , .python , .home").hide();
-   $(".d , .javascript").slideDown();
+  $(".d").show(0.2);
+   $(".javascript").slideDown();
 });
