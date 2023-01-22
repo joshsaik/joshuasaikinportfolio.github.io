@@ -15,11 +15,11 @@ width:1300px;
 }
 
 .logo{
-  height: 150px;
-  width: 150px;
-  position: fixed;
-  left: 20px;
+  height: 100px;
+  width: 100px;
+  left: 40px;
   top: 15px;
+  position:fixed;
   
 }
 
@@ -31,14 +31,14 @@ width:1300px;
 
 
 .title{
-   transition: color 1s;
-    text-align: center;
-    border: 3px white solid;
-    background-color: black;
-   	color: white;
-    width: 610px;
-    margin: 0 auto;
-    font-size: 40px;
+  transition: color 1s;
+  text-align: center;
+  border: 3px white solid;
+  background-color: black;
+  color: white;
+  width: 610px;
+  margin: 0 auto;
+  font-size: 40px;
   border-radius: 50px;
   padding: 10px;
   animation: rainbow 3s;
@@ -160,7 +160,6 @@ animation: rainbow1 3;
 .contain{
   display:flex;
   justify-content:center;
-  
 
 }
 
@@ -173,13 +172,16 @@ animation: rainbow1 3;
     border: 3px yellow solid;
     background-color: black;
    	color: yellow;
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     font-size: 40px;
   border-radius: 50px;
   padding: 10px;
-  animation: rainbowg123 5s;
+  animation: rainbowg123 1s;
 }
+
+/* Made the rainbow123
+ */
 
 .gtitle:hover{
 animation: rainbowg1 5s;
@@ -273,6 +275,31 @@ width:300px;
   
 }
 
+
+
+.game1{
+width:300px;
+  height:500px;
+  border:blue inset 5px;
+  margin: 20px 20px 2px 20px;
+  background-image: url(https://www.firstbenefits.org/wp-content/uploads/2017/10/placeholder-1024x1024.png);
+  border-radius: 10px;
+  transition: 0.1s;
+  
+}
+
+.game1:hover{
+  transform: scale(1.1);
+  border-color: yellow;
+  border-radius: 30px;
+  transition: 0.1s;
+  z-index:2;
+  position: relative;
+  opacity:0.3=;
+  backface-visibility: hidden;
+  
+}
+
 .under{
 width:280px;
   height:80px;
@@ -283,7 +310,7 @@ width:280px;
   color:white;
   background-color:black;
   font-size:15px;
-  margin:5px 20px 0 20px;
+  margin:5px 22px 0 22px;
   border: white 2px solid;
   
 }
@@ -299,6 +326,6 @@ width:280px;
   color:white;
   background-color:black;
   font-size:15px;
-  margin:5px 20px 0 20px;
+  margin:5px 25px 0 25px;
    border: white 2px solid;
 }
