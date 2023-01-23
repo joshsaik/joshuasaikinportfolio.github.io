@@ -387,3 +387,13 @@ width:570px;
   margin:15px 25px 0 25px;
    border: white 2px solid;
 }
+
+.about{
+ background-color: white;
+  color: black;
+  border: black 5px double;
+  width: 700px;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 20px;
+}
