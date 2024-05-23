@@ -144,7 +144,7 @@ animation: rainbow1 3;
   background-color: white;
   border: blue solid 2px;
   padding: 10px;
-  width: 280px;
+  width: 340px;
   border-radius: 20px;
   text-align: center;
   margin: 20px auto;
@@ -394,6 +394,6 @@ width:570px;
   border: black 5px double;
   width: 700px;
   font-size: 30px;
-  padding: 5px;
+  padding: 10px;
   border-radius: 20px;
 }
